@@ -1,9 +1,9 @@
 ﻿Console.WriteLine("Please enter the day of the week");
 
-string dayOfWeek = Console.ReadLine();
-dayOfWeek = dayOfWeek.ToLower();
+string weekday = Console.ReadLine();
+weekday = weekday.ToLower();
 
-switch (dayOfWeek)
+switch (weekday)
 {
     case "monday":
         Console.WriteLine("Monday is cereal");
@@ -16,15 +16,15 @@ switch (dayOfWeek)
         break;
 }
 
-if (dayOfWeek == "monday")
+if (weekday == "monday")
 {
 
 }
-else if (dayOfWeek == "tuesday")
+else if (weekday == "tuesday")
 {
 
 }
-else if (dayOfWeek == "wednesday")
+else if (weekday == "wednesday")
 {
 
 }

@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Please enter the day of the week");
+// Joe edited this on GitHub
+
+Console.WriteLine("Please enter the day of the week");
 
 string weekday = Console.ReadLine();
 weekday = weekday.ToLower();

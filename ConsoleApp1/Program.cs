@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Console.WriteLine("Please enter the day of the week");
+﻿Console.WriteLine("Please enter the day of the week");
 
 string dayOfWeek = Console.ReadLine();
 dayOfWeek = dayOfWeek.ToLower();
